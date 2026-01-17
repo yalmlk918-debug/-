@@ -1,0 +1,140 @@
+header{
+    background-color: aliceblue;
+    width: 100%;
+    position: fixed
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+padding: 10px 200px;
+}
+
+.logo{
+    text-decoration-line: none;
+    color: rgb(10, 44, 235);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navigation a{
+    color: rgb(64, 15, 240);
+    text-decoration-line: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color: #601cfc;
+}
+
+section{
+    padding:100px 200px;
+}
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/poto.jpg) no-repeat;
+    background-size: cover;
+    background-position: center ;
+    background-attachment: fixed;
+}
+
+.main h2 {
+
+    color: rgb(239, 245, 250);
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: rgb(222, 245, 15);
+    font-size: 3em;
+    font-weight: 600;
+
+}
+
+.main h3 {
+
+    color: aliceblue;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn {
+
+color: aliceblue;
+background-color: #0b64e9;
+text-decoration: none;
+font-size: 1.1em;
+font-weight: 600;
+display: inline-block;
+padding: 0.9375em 2.1875em;
+letter-spacing: 1px;
+border-radius: 15px;
+margin-bottom: 40px;
+transition: 0.7s ease;
+}
+
+.main-btn:hover {
+
+    background-color: rgb(23, 43, 226);
+    transform: scale(1.1);
+
+}
+
+.social-icons a {
+    color: aliceblue;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    color: rgb(25, 11, 221);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: rgb(240, 242, 247);
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1/100%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.card:hover {
+    transform: scale(11.1em);
+}
+.icon {
+    color: #0b64e9;
+    font-size: 8em;
+    text-align: center;
+}
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color: #0b64e9;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10em;
+
+
+}
